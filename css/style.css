@@ -1,0 +1,135 @@
+body {
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    min-width: 1185px;
+}
+.navbar {
+    border-bottom: 1px solid #E8E8E8;
+}
+.navbar .nav li a {
+    color: #666;
+}
+.navbar .nav li a:hover {
+    background: none;
+    color: #2E87CA;
+}
+.navbar-brand {
+    font-size: inherit;
+}
+.navbar-header {
+    margin-top: 4px;
+}
+.container {
+    width: 1185px;
+}
+.github {
+    width: 25px;
+    height: 20px;
+    top: 4px;
+    background: url('../images/github_logo.png') no-repeat;
+}
+
+.github:hover {
+    background: url('../images/github_logo_hover.png') no-repeat;
+}
+
+.github:hover, .navbar .nav li a:hover .github {
+    background: url('../images/github_logo_hover.png') no-repeat;
+}
+
+.twitter {
+    width: 25px;
+    height: 20px;
+    top: 4px;
+    background: url('../images/twitter_logo.png') no-repeat;
+}
+
+.twitter:hover, .navbar .nav li a:hover .twitter {
+    background: url('../images/twitter_logo_hover.png') no-repeat;
+}
+
+.logo {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.logo h3 {
+    font-size: 30px;
+}
+
+.logo h4 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    color: #8C8C8C;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.version {
+    text-align: center;
+    padding-top: 100px;
+    height: 400px;
+}
+
+.version:hover {
+    border: 1px solid rgba(46, 135, 202, 0.25);
+    border-radius: 10px;
+    padding-top: 99px;
+}
+
+.version p {
+    padding: 0 50px 0 50px;
+    color: #666;
+}
+
+.version img {
+    margin-bottom: 20px;
+}
+
+.version h4 a {
+    font-size: 17px;
+}
+
+.version h4 a span {
+    color: #2E87CA;
+}
+.version-main {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 40px;
+    margin-top: 0;
+    width: 390px;
+}
+.version-main:hover {
+    padding-top: 39px;
+}
+.version-main p {
+    padding: 0 40px 40px 40px;
+}
+.version-main img {
+    margin-bottom: 10px;
+}
+.version-main h4 a {
+    font-size: 20px;
+}
+
+.label-beta {
+    top: -2px;
+    position: relative;
+    color: #E78534;
+    border: 1px solid #E78534;
+    font-size: 10px;
+}
+
+.questions {
+    margin-top: 70px;
+    text-align: center;
+    position: relative;
+}
+
+.social {
+    margin-top: 70px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 70px;
+}
